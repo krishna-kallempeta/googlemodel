@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.show-btn{
+    transition: 100s;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 15px;
+    /* margin: 50px auto; */
+    position: relative;
+    top: 104px;
+    left: 205px;
+    cursor: pointer;
+    background-color: rgb(216, 200, 200);
+    color: rgb(157, 16, 16);
+    z-index: -100;
+
+   
+}
+.main-div{
+    transition: 100s;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.845);
+    padding: 22px 30px;
+    margin: 50px auto;
+    color: white;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    z-index: 1;
+
+
+  
+}
+.flex-for-close{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.close{
+    font-size: 20px;
+    border: none;
+    padding: 12px 10px;
+    border-radius: 12px;
+}
+.close:hover{
+    outline: none;
+    border: 2px solid rgb(154, 165, 169);
+    border-radius: 12px;
+    padding: 12px 10px;
+    background-color: black;
+}
+input{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.267);
+    padding: 8px 16px 15px 15px;
+    margin-top: 20px;
+    /* margin-bottom: 10px; */
+    box-sizing: border-box;
+    text-align: start;
+    font-size: large;
+    color: white;
+    
+
+}
+input:focus{
+    outline: none;
+    border: 2px solid rgb(0, 0, 255);
+    border-radius: 12px;
+    box-shadow: 2px 1px 1px 0px;
+    
+}
+.sign-up-btn{
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(0, 0, 255);
+    color: white;
+    padding: 8px 16px 15px 15px;
+    margin-top: 20px;
+    font-size: large;
+    text-align: center;
+    
+}
+.desc-after-signup{
+    margin-top: 20px;
+    color: rgba(43, 42, 42, 0.43);
+}
+.flex-for-twitter{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 12px;
+    padding: 8px 16px 15px 15px;
+    box-sizing: border-box;
+    font-size: large;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.flex-for-twitter:hover{
+    background-color: rgba(255, 255, 255, 0.315);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.flex-for-facebook{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 12px;
+    padding: 8px 16px 15px 15px;
+    box-sizing: border-box;
+    font-size: large;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.flex-for-facebook:hover{
+    background-color: rgba(255, 255, 255, 0.315);
+}
+.flex-for-git-hub{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 12px;
+    padding: 8px 16px 15px 15px;
+    box-sizing: border-box;
+    font-size: large;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-top: 20px;
+}
+.flex-for-git-hub:hover{
+    background-color: rgba(255, 255, 255, 0.315);
+}
+.hide-dive{
+    display: none;
+}
+
+
+.select{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    background-color: yellow;
+}
+#country-names{
+    width: 200px;
+    background-color: yellowgreen;
+    margin-top: 30px;
+}
+.dd{
+    background-color: yellowgreen;
+    margin-top: 4px;
+    padding: 4px;
+
+}
+.dd:hover{
+    background-color: yellow;
+}
+.d-none{
+    display: none;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="model.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+<body>
+   <section>
+    <div>
+        <button class="show-btn" id="show" onclick="closeup()">SHOW</button>
+    </div>
+    <div class="main-div hide-div " id="main-div">
+        <div class="flex-for-close">
+            <h1>Sign up for free</h1>
+            <i class="bi bi-x-lg close hide" id="close" onclick="closeup()"></i>
+        </div>
+        <input type="email" placeholder="Email address" id="email">
+        <input type="password" placeholder="password" id="password">
+       
+        <button  class="sign-up-btn" id="signup" ><a href="https://myaccount.google.com/?utm_source=OGB&utm_medium=app&pli=1">sign up</a></button>
+        <p class="desc-after-signup classe">By clicking Sign up, you agree to the terms of use.</p>
+        <hr>
+        <h1>Or use a third-party</h1>
+        <div class="third-party">
+            <div class="flex-for-twitter">
+                <i class="bi bi-twitter"></i>
+                <a href="">sign up with twitter</a>
+            </div>
+            <div class="flex-for-facebook">
+                <i class="bi bi-facebook"></i>
+                <a href="">sign up with facebook</a>
+            </div>
+            <div class="flex-for-git-hub">
+                <i class="bi bi-github"></i>
+                <a href="">sign up with google</a>
+            </div>
+        </div>
+    </div>
+   </section>
+   <section class="dropDown">
+    <div class="select">
+        <h2 class="country" id="displayName" onclick="country()">Country</h2>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-caret-down"
+          viewBox="0 0 16 16">
+          <path
+            d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
+        </svg>
+      </div>
+
+      <ul id="country-names" class="d-none">
+        <li class="country dd">Italy</li>
+        <li class="country dd">France</li>
+        <li class="country dd">India</li>
+        <li class="country dd">Australia</li>
+      </ul>
+   
+   </section>
+
+
+    <script src="model.js" ></script>
+</body>
+</html>
