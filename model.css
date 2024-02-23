@@ -172,3 +172,12 @@ a{
 .d-none{
     display: none;
 }
+.heading{
+    width: 400px;
+    font-size: large;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    padding: 12px;
+}
